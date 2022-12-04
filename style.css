@@ -1,0 +1,64 @@
+body {
+    background-color: #bed0f6;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-link {
+    font-size: 1.3rem;
+}
+.navbar-brand {
+    font-size: 3.5rem;
+}
+h1 {
+ font-size: 3rem;
+}
+.intro h1 {
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro p {
+    font-size: 2.5rem;
+}
+.intro a {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.3rem;
+}
+input, textarea {
+    font-size: 1.3rem;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+}
+#about::after, footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#about img {
+    width: 25%;
+    border-radius: 20px;
+}
+footer a {
+    color: rgb(255, 255, 255, 0.7);
+    margin-inline: 5px;
+}
+footer a:hover {
+    color: rgb(255, 255, 255);
+    margin-inline: 5px;
+}
+.footerLink, .email {
+    clear: both;
+}
+.footerLink a {
+    color: #bed0f6;
+}
+.footerLink a:hover {
+    color: #bed0f6;
+}
+#campaign a {
+    font-size: 1.4rem;
+}
